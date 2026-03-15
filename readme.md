@@ -1,53 +1,130 @@
-# HTML Authentication POC
+# Authentication System Styling
 
-This project is a simple Proof of Concept (POC) for an authentication system built using only HTML.  
-It includes basic page navigation using anchor tags without any CSS or JavaScript.
+## Project Overview
 
-## 📁 Project Structure
+This project is a styled version of a basic authentication system built using "HTML, Bootstrap 5, and Custom CSS". The goal of this assignment was to transform plain HTML authentication pages into a professional, responsive, and visually appealing UI using modern frontend design practices.
 
-The project contains the following 5 HTML pages:
+The application includes common authentication pages such as login, registration, password recovery, password reset, and a user dashboard.
 
-- `login.html`
-- `register.html`
-- `forgot-password.html`
-- `reset-password.html`
-- `dashboard.html`
+---
 
-## 🔗 Page Redirections
+## Features
 
-All pages are connected using anchor (`<a>`) tags for navigation:
+* Clean and modern authentication UI
+* Bootstrap 5 integration
+* Responsive design for all devices
+* Custom CSS styling
+* Google Fonts integration
+* Professional card-based layout
+* Password visibility toggle
+* Responsive navbar dashboard
 
-- Login page links to:
-  - Register page
-  - Forgot Password page
-  - Dashboard page (after login)
+---
 
-- Register page links to:
-  - Login page
+## Technologies Used
 
-- Forgot Password page links to:
-  - Reset Password page
-  - Login page
+* HTML5
+* CSS3
+* Bootstrap 5
+* Bootstrap Icons
+* Google Fonts
 
-- Reset Password page links to:
-  - Login page
+---
 
-- Dashboard page links to:
-  - Login page (Logout)
+## Project Pages
 
-## 🚀 How to Run
+### 1. Login Page
 
-1. Download or clone the repository.
-2. Open `login.html` in any web browser.
-3. Navigate between pages using the provided links.
+Allows users to log into the system using email and password.
 
-## 📝 Notes
+### 2. Registration Page
 
-- This project uses only plain HTML.
-- No CSS or JavaScript has been added.
-- All redirections are handled using anchor tags.
-- Repository is public as required for grading.
+Allows new users to create an account.
 
-## 🔗 Repository Link Format
+### 3. Forgot Password Page
 
-Submit your repository in this format:
+Users can request a password reset link.
+
+### 4. Reset Password Page
+
+Allows users to create a new password.
+
+### 5. Dashboard Page
+
+Displays a welcome message and logout option after login.
+
+---
+
+## Project Structure
+
+```
+html-authentication-poc
+│
+├── index.html
+├── register.html
+├── forgot-password.html
+├── reset-password.html
+├── dashboard.html
+├── styles.css
+├── README.md
+│
+└── screenshots
+    ├── login.png
+    ├── register.png
+    ├── forgot-password.png
+    ├── reset-password.png
+    └── dashboard.png
+```
+
+---
+
+## Screenshots
+
+### Login Page
+
+![Login](screenshots/login.png)
+
+### Register Page
+
+![Register](screenshots/register.png)
+
+### Forgot Password Page
+
+![Forgot](screenshots/forgot-password.png)
+
+### Reset Password Page
+
+![Reset](screenshots/reset-password.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## How to Run the Project
+
+1. Clone the repository
+
+```
+git clone https://github.com/Anushaym625/html-authentication-poc.git
+```
+
+2. Open the project folder
+
+3. Open `index.html` in any browser
+
+---
+
+## Author
+
+**Anusha Y M**
+Computer Science Engineering (Data Science)
+SJB Institute of Technology, Bengaluru
+
+---
+
+## Assignment
+
+Fullstack Java Development
+CampusPe - Authentication System Styling Assignment
